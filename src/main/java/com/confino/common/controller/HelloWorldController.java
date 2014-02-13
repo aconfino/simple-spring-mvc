@@ -1,4 +1,4 @@
-package com.mkyong.common.controller;
+package com.confino.common.controller;
 
 import java.util.Date;
 
