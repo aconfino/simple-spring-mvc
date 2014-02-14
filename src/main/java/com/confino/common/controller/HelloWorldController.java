@@ -14,7 +14,7 @@ public class HelloWorldController {
 	public ModelAndView helloWorld() {
 
 		ModelAndView model = new ModelAndView("HelloWorldPage");
-		model.addObject("msg", "Hey Dennis, this was a deploy from a custom Jenkins instance...");
+		model.addObject("msg", "Hey Dennis, deployed from a custom Jenkins instance...");
 
 		return model;
 	}
