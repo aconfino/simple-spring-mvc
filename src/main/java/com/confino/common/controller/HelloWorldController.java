@@ -14,7 +14,7 @@ public class HelloWorldController {
 	public ModelAndView helloWorld() {
 
 		ModelAndView model = new ModelAndView("HelloWorldPage");
-		model.addObject("msg", "Hey Dennis...autodeployed 28 times!");
+		model.addObject("msg", "Hey Dennis...autodeployed 29 times!");
 
 		return model;
 	}
