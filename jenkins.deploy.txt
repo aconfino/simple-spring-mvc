@@ -1,0 +1,10 @@
+
+checked out openshift repo
+ssh://52fd800f5004469e44000011@jbossews-darthvadar.rhcloud.com/~/git/jbossews.git
+
+shell command
+cp %JENKINS_HOME%\jobs\simple-mvc-project\workspace\target\SpringMVC.war %WORKSPACE%\webapps\ROOT.war
+cd %WORKSPACE%\webapps\
+git add *.war
+git commit -m "update"
+git push origin HEAD:master
